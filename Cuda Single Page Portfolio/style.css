@@ -403,6 +403,9 @@ header p{
 .protfoli-button:hover{
 	color: #adaaaa;
 }
+.icon{
+	display: flex;
+}
 /*end portfolio*/
 /*start testimorials*/
 .testimorials{
