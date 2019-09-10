@@ -1,0 +1,191 @@
+footer {
+  background-color: #201f1f;
+  margin-top: 87px;
+  border-top: 5px solid #ef9200; }
+  footer .form-icon {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    footer .form-icon .form {
+      max-width: 508px;
+      width: 100%; }
+      footer .form-icon .form h5 {
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 22px;
+        margin-top: 31px; }
+      footer .form-icon .form form {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap; }
+        footer .form-icon .form form input {
+          border: none;
+          height: 38px;
+          max-width: 423px;
+          width: 100%;
+          padding-left: 14px;
+          border-radius: 2px 0 0 2px; }
+          @media screen and (max-width: 576px) {
+            footer .form-icon .form form input {
+              width: 70%; } }
+          footer .form-icon .form form input::-webkit-input-placeholder {
+            font-size: 12px; }
+          footer .form-icon .form form input:-ms-input-placeholder {
+            font-size: 12px; }
+          footer .form-icon .form form input::-ms-input-placeholder {
+            font-size: 12px; }
+          footer .form-icon .form form input::placeholder {
+            font-size: 12px; }
+        footer .form-icon .form form button {
+          padding: 0 17px;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          background-color: #888888;
+          color: #fff;
+          font-size: 14px;
+          border: none;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center; }
+    footer .form-icon .icon ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-bottom: 0; }
+      @media screen and (max-width: 992px) {
+        footer .form-icon .icon ul {
+          padding: 0; } }
+      footer .form-icon .icon ul li {
+        list-style-type: none;
+        margin-right: 15px;
+        margin-top: 63px;
+        margin-bottom: 40px; }
+        footer .form-icon .icon ul li a {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          padding-top: 13px;
+          font-size: 18px;
+          width: 48px;
+          height: 48px;
+          border-radius: 50%;
+          background: #fff;
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+          footer .form-icon .icon ul li a span {
+            font-size: 18px;
+            color: #888888; }
+          footer .form-icon .icon ul li a:hover {
+            background-color: #888888; }
+            footer .form-icon .icon ul li a:hover span {
+              color: #fff; }
+      footer .form-icon .icon ul li:last-child {
+        margin-right: 78px; }
+        footer .form-icon .icon ul li:last-child a {
+          padding-top: 10px; }
+        footer .form-icon .icon ul li:last-child span {
+          margin-left: -14px;
+          -webkit-transform: rotate(50deg);
+          -ms-transform: rotate(50deg);
+          transform: rotate(50deg); }
+  footer .text {
+    margin-right: -30px;
+    margin-left: -30px; }
+    @media screen and (max-width: 576px) {
+      footer .text {
+        margin-right: -15px;
+        margin-left: -15px; } }
+    footer .text .left {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-left: -1px; }
+      footer .text .left .item:last-child {
+        padding-left: 35px; }
+      footer .text .left .item h4 {
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 9px;
+        color: #fff; }
+      footer .text .left .item a {
+        font-size: 13px;
+        letter-spacing: 0;
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        margin-bottom: 4px; }
+        footer .text .left .item a:hover {
+          color: #ef9200; }
+    footer .text .right {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      padding-left: 0;
+      margin-left: -3px; }
+      @media screen and (max-width: 1200px) {
+        footer .text .right {
+          padding-left: 15px;
+          margin-left: 0;
+          margin-top: 10px; } }
+      footer .text .right .item:last-child {
+        padding-left: 41px; }
+      footer .text .right .item h4 {
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 9px;
+        color: #fff; }
+      footer .text .right .item a {
+        font-size: 13px;
+        color: #fff;
+        display: block;
+        text-decoration: none;
+        margin-bottom: 4px; }
+        footer .text .right .item a:hover {
+          color: #ef9200; }
+      footer .text .right .item .item1:first-child p {
+        margin-left: 8px; }
+      footer .text .right .item .item1:nth-child(2) .svg-inline--fa.fa-w-16 {
+        -webkit-transform: rotate(100deg);
+        -ms-transform: rotate(100deg);
+        transform: rotate(100deg);
+        margin-top: 14px;
+        margin-left: 2px; }
+      footer .text .right .item .item1:nth-child(2) p {
+        margin-left: 12px; }
+      footer .text .right .item .item1:last-child {
+        padding-top: 7px;
+        padding-left: 5px; }
+      footer .text .right .item .item1 span {
+        color: #fff;
+        font-size: 12px; }
+      footer .text .right .item .item1 p {
+        letter-spacing: 0.025em;
+        font-size: 13px;
+        color: #fff;
+        display: inline-block;
+        margin-left: 8px; }
+
+.footer-bottom {
+  margin-top: 37px;
+  background-color: #3a3a3a;
+  text-align: center; }
+  .footer-bottom p {
+    font-size: 12px;
+    color: #cfcfcf;
+    margin-bottom: 0;
+    padding: 11px 0 11px 0; }

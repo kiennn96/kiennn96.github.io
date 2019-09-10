@@ -1,0 +1,62 @@
+.page {
+  margin: 0; }
+  @media only screen and (max-width: 992px) {
+    .page {
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap; } }
+  @media only screen and (min-width: 992px) {
+    .page {
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap; } }
+  .page .collum_main_seven {
+    max-width: 72.974%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0px 0px 10px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 10px -2px rgba(0, 0, 0, 0.75); }
+    @media only screen and (max-width: 992px) {
+      .page .collum_main_seven {
+        max-width: 100%;
+        width: 100%; } }
+    @media only screen and (min-width: 992px) {
+      .page .collum_main_seven {
+        max-width: 72.974%;
+        width: 100%; } }
+    .page .collum_main_seven .content_main_seven {
+      background: #fff;
+      margin-top: -20px;
+      /* end nav */ }
+      .page .collum_main_seven .content_main_seven .nav {
+        line-height: 24px;
+        padding: 15px 15px 13px;
+        border-bottom: 1px dotted #dfdfdf;
+        margin-bottom: 24px;
+        letter-spacing: 0.01em; }
+        .page .collum_main_seven .content_main_seven .nav li {
+          font-size: 8px;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center; }
+          .page .collum_main_seven .content_main_seven .nav li .active {
+            color: #ef9200 !important; }
+          .page .collum_main_seven .content_main_seven .nav li .nav-link {
+            padding: 0;
+            color: #212529;
+            font-size: 13.13px;
+            font-weight: 400; }
+          .page .collum_main_seven .content_main_seven .nav li span.first {
+            padding: 0 11px 0 10px; }
+          .page .collum_main_seven .content_main_seven .nav li span.two {
+            padding: 0 13px 0 9px; }
+      .page .collum_main_seven .content_main_seven .details {
+        padding: 0 15px 55px; }
+        .page .collum_main_seven .content_main_seven .details h6 {
+          color: #ef9200;
+          font-size: 18px;
+          font-weight: 700;
+          margin-bottom: 8px;
+          letter-spacing: 0;
+          word-spacing: 0.048em; }

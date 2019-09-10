@@ -1,0 +1,395 @@
+#section1 {
+  /* end bg */ }
+  #section1 .bg-title {
+    position: relative;
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+    background-image: url("/images/bg_header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left -25px top 0;
+    z-index: -1; }
+    #section1 .bg-title::after {
+      content: "";
+      position: absolute;
+      display: block;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #000;
+      opacity: 0.6;
+      z-index: -1; }
+    #section1 .bg-title p {
+      text-transform: uppercase;
+      font-size: 30px;
+      color: #fff;
+      font-weight: 700;
+      line-height: 24.13px;
+      padding: 97px 0 35px;
+      letter-spacing: 0.018em;
+      margin-left: -1px;
+      word-spacing: 0.085em; }
+      @media only screen and (max-width: 576px) {
+        #section1 .bg-title p {
+          font-size: 20px; } }
+  #section1 .main {
+    margin: 0;
+    /* end collum_main_seven */ }
+    @media only screen and (max-width: 992px) {
+      #section1 .main {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap; } }
+    @media only screen and (min-width: 992px) {
+      #section1 .main {
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap; } }
+    #section1 .main .collum_main_seven {
+      max-width: 72.974%;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      -webkit-box-shadow: 0px 0px 10px -2px rgba(0, 0, 0, 0.75);
+      box-shadow: 0px 0px 10px -2px rgba(0, 0, 0, 0.75); }
+      @media only screen and (max-width: 992px) {
+        #section1 .main .collum_main_seven {
+          max-width: 100%;
+          width: 100%; } }
+      @media only screen and (min-width: 992px) {
+        #section1 .main .collum_main_seven {
+          max-width: 72.974%;
+          width: 100%; } }
+      #section1 .main .collum_main_seven .content_main_seven {
+        background: #fff;
+        margin-top: -20px;
+        /* end nav */
+        /* end details */ }
+        #section1 .main .collum_main_seven .content_main_seven .nav {
+          line-height: 24px;
+          padding: 15px 15px 13px;
+          border-bottom: 1px dotted #dfdfdf;
+          margin-bottom: 24px;
+          letter-spacing: 0.01em; }
+          #section1 .main .collum_main_seven .content_main_seven .nav li {
+            font-size: 8px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center; }
+            #section1 .main .collum_main_seven .content_main_seven .nav li .active {
+              color: #ef9200 !important; }
+            #section1 .main .collum_main_seven .content_main_seven .nav li .nav-link {
+              padding: 0;
+              color: #212529;
+              font-size: 13.13px;
+              font-weight: 400; }
+            #section1 .main .collum_main_seven .content_main_seven .nav li span.first {
+              padding: 0 11px 0 10px; }
+            #section1 .main .collum_main_seven .content_main_seven .nav li span.two {
+              padding: 0 13px 0 9px; }
+        #section1 .main .collum_main_seven .content_main_seven .details {
+          padding: 0 15px 55px;
+          width: 100%;
+          overflow: hidden;
+          /* end pictures */ }
+          #section1 .main .collum_main_seven .content_main_seven .details h6 {
+            color: #ef9200;
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            letter-spacing: 0;
+            word-spacing: 0.048em; }
+          #section1 .main .collum_main_seven .content_main_seven .details > p:nth-child(2) {
+            font-size: 13px;
+            font-weight: 400;
+            margin: 0 0 19px -2px;
+            color: #212529;
+            word-spacing: 0.032em; }
+          #section1 .main .collum_main_seven .content_main_seven .details .pictures {
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            width: inherit;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between; }
+            #section1 .main .collum_main_seven .content_main_seven .details .pictures .item:first-child {
+              margin-bottom: 5px; }
+            #section1 .main .collum_main_seven .content_main_seven .details .pictures .item:nth-child(2), #section1 .main .collum_main_seven .content_main_seven .details .pictures .item:nth-child(3) {
+              max-width: 31.55%; }
+            #section1 .main .collum_main_seven .content_main_seven .details .pictures .item:nth-child(1), #section1 .main .collum_main_seven .content_main_seven .details .pictures .item:nth-child(4) {
+              max-width: 67.85%; }
+            #section1 .main .collum_main_seven .content_main_seven .details .pictures img {
+              width: 100%; }
+          #section1 .main .collum_main_seven .content_main_seven .details > p:nth-child(4) {
+            font-size: 13.01px;
+            font-weight: 400;
+            margin-top: 21px;
+            color: #212529;
+            margin-bottom: 33px;
+            word-spacing: 0.02em; }
+          #section1 .main .collum_main_seven .content_main_seven .details .item_details {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            margin-bottom: 30px;
+            line-height: 26.01px; }
+            @media only screen and (max-width: 992px) {
+              #section1 .main .collum_main_seven .content_main_seven .details .item_details {
+                -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+                margin-bottom: 0; } }
+            @media only screen and (min-width: 992px) {
+              #section1 .main .collum_main_seven .content_main_seven .details .item_details {
+                -ms-flex-wrap: nowrap;
+                flex-wrap: nowrap;
+                margin-bottom: 30px; } }
+            #section1 .main .collum_main_seven .content_main_seven .details .item_details p {
+              font-size: 13px;
+              font-weight: 400;
+              word-spacing: 0.012em;
+              margin-top: 2px; }
+              @media only screen and (max-width: 992px) {
+                #section1 .main .collum_main_seven .content_main_seven .details .item_details p {
+                  padding-right: 0 !important;
+                  margin-bottom: 10px; } }
+            #section1 .main .collum_main_seven .content_main_seven .details .item_details:nth-child(5) h6 {
+              word-spacing: 0.04em;
+              margin-top: 2px;
+              letter-spacing: 0.01em; }
+            #section1 .main .collum_main_seven .content_main_seven .details .item_details:nth-child(5) p {
+              word-spacing: 0.013em;
+              padding-right: 19px; }
+            #section1 .main .collum_main_seven .content_main_seven .details .item_details:nth-child(6) h6 {
+              margin-top: 35px;
+              letter-spacing: 0.0em; }
+            #section1 .main .collum_main_seven .content_main_seven .details .item_details:nth-child(6) p {
+              word-spacing: 0.012em;
+              margin-top: 9px;
+              padding-right: 34px; }
+            #section1 .main .collum_main_seven .content_main_seven .details .item_details:nth-child(7) {
+              margin-bottom: 0; }
+              #section1 .main .collum_main_seven .content_main_seven .details .item_details:nth-child(7) h6 {
+                margin: 15px 0 12px; }
+              #section1 .main .collum_main_seven .content_main_seven .details .item_details:nth-child(7) p {
+                padding-right: 33px; }
+            @media only screen and (max-width: 768px) {
+              #section1 .main .collum_main_seven .content_main_seven .details .item_details .img {
+                max-width: 100%; }
+                #section1 .main .collum_main_seven .content_main_seven .details .item_details .img img {
+                  width: 100%; } }
+    #section1 .main .collum_main_three {
+      max-width: 27.028%;
+      padding-left: 15px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      /* end nav-top */
+      /* end training */ }
+      @media only screen and (max-width: 992px) {
+        #section1 .main .collum_main_three {
+          max-width: 100%;
+          width: 100%; } }
+      @media only screen and (min-width: 992px) {
+        #section1 .main .collum_main_three {
+          max-width: 27.028%; } }
+      #section1 .main .collum_main_three > h6 {
+        font-weight: 700;
+        color: #212529;
+        text-transform: uppercase;
+        padding: 25px 0 11px;
+        line-height: 24.13px;
+        border-bottom: 1px solid #dcdcdc; }
+      #section1 .main .collum_main_three > .nav {
+        line-height: 24.11px; }
+        #section1 .main .collum_main_three > .nav > li {
+          border-bottom: 1px solid #dcdcdc; }
+          #section1 .main .collum_main_three > .nav > li:nth-child(1) {
+            padding: 9px 0 10px; }
+          #section1 .main .collum_main_three > .nav > li:nth-child(2) {
+            padding: 11px 0 26px;
+            border: none; }
+          #section1 .main .collum_main_three > .nav > li .nav-link {
+            font-size: 14px;
+            font-weight: 400;
+            text-transform: uppercase;
+            color: #212529; }
+            #section1 .main .collum_main_three > .nav > li .nav-link:hover {
+              color: #ef9200; }
+      #section1 .main .collum_main_three .training {
+        background: #e3e3e3;
+        padding: 14px 15px 0;
+        line-height: 24px; }
+        #section1 .main .collum_main_three .training > p:first-child {
+          text-transform: uppercase;
+          font-size: 18px;
+          font-weight: 700;
+          word-spacing: 0.06em;
+          margin-bottom: 2px; }
+        #section1 .main .collum_main_three .training span {
+          font-size: 13px;
+          font-weight: 400;
+          word-spacing: 0.016em; }
+        #section1 .main .collum_main_three .training .nav {
+          padding: 10px 0 17px; }
+          #section1 .main .collum_main_three .training .nav li {
+            border-left: 5px solid #201f1f;
+            margin-bottom: 2px; }
+            #section1 .main .collum_main_three .training .nav li:nth-child(7) {
+              margin-bottom: 0; }
+            #section1 .main .collum_main_three .training .nav li:last-child {
+              border: none;
+              margin: 14px 0 0; }
+              #section1 .main .collum_main_three .training .nav li:last-child a {
+                color: #201f1f;
+                padding: 0;
+                max-height: 40px;
+                height: 40px;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+                font-size: 16px;
+                font-weight: 400;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                justify-content: center;
+                background: #f09b14;
+                text-transform: uppercase; }
+                #section1 .main .collum_main_three .training .nav li:last-child a:hover {
+                  -webkit-transition: all 0.5s;
+                  -o-transition: all 0.5s;
+                  transition: all 0.5s;
+                  background: #201f1f;
+                  color: #fff; }
+            #section1 .main .collum_main_three .training .nav li .nav-link {
+              background: #919191;
+              color: #fff;
+              font-size: 14px;
+              font-weight: 700;
+              padding: 10.5px 0 10.5px 12px;
+              -webkit-transition: all 0.5s;
+              -o-transition: all 0.5s;
+              transition: all 0.5s; }
+              #section1 .main .collum_main_three .training .nav li .nav-link:hover {
+                background: #fff;
+                color: #ef9200;
+                -webkit-transition: all 0.5s;
+                -o-transition: all 0.5s;
+                transition: all 0.5s; }
+      #section1 .main .collum_main_three .Good_students {
+        padding: 0 15px;
+        /* end img */ }
+        #section1 .main .collum_main_three .Good_students > p {
+          margin: 29px 0 25px;
+          font-size: 18px;
+          font-weight: 700;
+          text-transform: uppercase; }
+          @media only screen and (max-width: 992px) {
+            #section1 .main .collum_main_three .Good_students > p {
+              text-align: center; } }
+        #section1 .main .collum_main_three .Good_students > a:nth-child(2) {
+          position: relative;
+          display: block;
+          max-width: 256px;
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+          -webkit-transform: rotate(-4deg);
+          -ms-transform: rotate(-4deg);
+          transform: rotate(-4deg);
+          padding: 7px 12px 18px 8px;
+          background: #fff;
+          -webkit-box-shadow: -2px -1px 8px 0px #cfcfcf;
+          box-shadow: -2px -1px 8px 0px #cfcfcf; }
+          @media only screen and (max-width: 992px) {
+            #section1 .main .collum_main_three .Good_students > a:nth-child(2) {
+              margin: 16px auto 0; } }
+          #section1 .main .collum_main_three .Good_students > a:nth-child(2)::after {
+            position: absolute;
+            bottom: -10px;
+            left: 63px;
+            -webkit-transform: rotate(-45deg);
+            -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+            content: "";
+            border-width: 10px;
+            border-color: #fff #fff #fff #fff;
+            border-style: solid;
+            z-index: 4;
+            -webkit-box-shadow: -1px -1px 4px 3px #f7f7f7;
+            box-shadow: -1px -1px 4px 3px #f7f7f7; }
+          #section1 .main .collum_main_three .Good_students > a:nth-child(2) .box {
+            width: inherit;
+            position: relative;
+            overflow: hidden; }
+            #section1 .main .collum_main_three .Good_students > a:nth-child(2) .box .ovlay_pink {
+              top: 0;
+              left: 0;
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              background: rgba(229, 206, 217, 0.4);
+              z-index: 2; }
+            #section1 .main .collum_main_three .Good_students > a:nth-child(2) .box img {
+              position: relative;
+              left: 12px;
+              max-width: 100%;
+              -webkit-transform: scale(1.25) rotate(2deg);
+              -ms-transform: scale(1.25) rotate(2deg);
+              transform: scale(1.25) rotate(2deg);
+              top: 21px; }
+        #section1 .main .collum_main_three .Good_students .info {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          margin: 24px auto 0;
+          -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+          justify-content: space-between;
+          max-width: 255px; }
+          #section1 .main .collum_main_three .Good_students .info .left {
+            line-height: 24px;
+            padding-left: 34px; }
+            #section1 .main .collum_main_three .Good_students .info .left p:first-child {
+              font-size: 16.04px;
+              font-family: 'Lato', sans-serif;
+              font-weight: 600;
+              color: #212529; }
+            #section1 .main .collum_main_three .Good_students .info .left a {
+              color: #c15984;
+              font-size: 16px; }
+            #section1 .main .collum_main_three .Good_students .info .left p:last-child {
+              color: #212529;
+              font-size: 12px;
+              line-height: 20px;
+              font-weight: 400;
+              padding-left: 2px; }
+          #section1 .main .collum_main_three .Good_students .info .right {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            padding-right: 40px; }
+            #section1 .main .collum_main_three .Good_students .info .right a {
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-align: center;
+              -ms-flex-align: center;
+              align-items: center;
+              padding: 16px 0 14px 0;
+              border-left: 1px dotted #b51564;
+              color: #b30e5f;
+              font-size: 8px; }
+              #section1 .main .collum_main_three .Good_students .info .right a .fa-angle-double-right {
+                margin-left: 15px; }

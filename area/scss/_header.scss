@@ -1,0 +1,128 @@
+#goTop{
+	width:60px;
+	height:40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 5px 5px 0 0;
+	background: #0a0808;
+	position:fixed;
+	bottom:0;
+	right:20px;
+	z-index: 9;
+	color: #fff;
+	cursor: pointer;
+	opacity: 0;
+	&:hover{
+		background: #212529;
+		color: #ef9200;
+	}
+}
+.header_top{
+	background: #f2f2f2;
+	padding: 10px 0 ;
+	>.container{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		@media only screen and(max-width: 576px){
+			flex-direction: column;
+			align-items: center;
+		}
+		[title="home"]{
+			display: block;
+			img{
+				max-width: 168px;
+			}
+		}
+		p{
+			line-height: 24px;
+			font-size: 13px;
+			font-weight: 400;
+			padding-top: 16px;
+			max-width: 226px;
+			text-align: center;
+			margin-right: 3.5px;
+		}
+	}
+	/* header_top */
+}
+.menu{
+	background: #201f1f;
+	line-height: 24px;
+	.btn_nav_bar{
+		display: none;
+		color: #fff;
+		font-size: 25px;
+		padding: 12px 0;
+		@media only screen and(max-width: 992px){
+			display: inline-flex;
+		}
+		@media only screen and(min-width: 992px){
+			display: none;
+		}
+	}
+	ul{
+		@media only screen and(max-width: 768px){
+			display: none;
+			flex-direction: column;
+		}
+		@media only screen and(min-width: 768px){
+			display: none;
+			flex-direction: column;
+		}
+		@media only screen and(min-width: 992px){
+		    display: flex !important;;
+			flex-direction: row;
+		}
+		li{
+			&:first-child{
+				.nav-link{	
+					display: block;
+					padding-left: 0px;
+					letter-spacing: 0.01em;
+					padding-right: 15px;
+					@media only screen and(min-width: 992px){
+						padding-left: 0 !important;
+					}
+				}
+			}
+			&:last-child{
+				.nav-link{
+					padding-left: 14px;
+				}
+			}
+			.nav-link{
+				padding: 17px 15px 9px 12px;
+				text-transform: uppercase;
+				color: #fff;
+				font-size: 16px;
+				font-weight: 400;
+				&:hover{
+					transition: all 0.5s;
+					color: #ef9200;
+				}
+				@media only screen and(max-width: 992px){
+					padding-left: 0 !important;
+					padding-right: 0;
+				}
+				@media only screen and(min-width: 992px){
+					padding-left: 12px !important;
+					padding-right: 15.3px;
+				}
+			}
+		}
+	}
+}
+.menu.sticky{
+	position: fixed;
+	top: 0;
+	z-index: 3;
+	width: 100%;
+	animation: fix 0.5s linear;
+}
+@keyframes fix{
+	0%{opacity: 0.5;}
+	100%{opacity: 1;}
+}
+/* end menu */
